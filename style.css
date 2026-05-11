@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: red;
+}
+header{
+    background-color: rgb(243, 231, 217);
+    text-align: left;
+}
+#logo{
+    width: 200px;
+
+}
