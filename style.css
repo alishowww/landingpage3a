@@ -19,3 +19,60 @@ header{
     width: 200px;
 
 }
+#produtos{
+    height: 700px;
+    padding-top: 30px;
+}
+#parceiros{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#historia{
+    background-color: aqua;
+    height: 700px;
+}
+#cadastro{
+    background-color: chartreuse;
+    height: 700px;
+}
+.menu{
+    background-color: brown;
+    padding: 15px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    transition: 0.9s;
+    padding: 5px;
+}
+.menu a:hover{
+    color: brown;
+    text-decoration: underline;
+    background-color: darksalmon;
+    border-radius: 3px;
+}
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+.texto1{
+    background-color: azure;
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.texto1:hover{
+    background-color: blue;
+}
+.texto1 p{
+    /*border: solid red 2px;*/
+    text-align: justify;
+}
