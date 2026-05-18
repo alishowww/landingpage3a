@@ -9,11 +9,12 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-color: red;
+    background-color: orange;
 }
 header{
-    background-color: rgb(243, 231, 217);
+    background-color: rgb(255, 242, 228);
     text-align: left;
+    position: relative;
 }
 #logo{
     width: 200px;
@@ -22,8 +23,9 @@ header{
 #produtos{
     height: 700px;
     padding-top: 30px;
+    background-color: blueviolet;
 }
-#parceiros{
+#roupas{
     height: auto;
     display: flex;
     flex-direction: row;
@@ -31,17 +33,19 @@ header{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: black;
+    height: 700px;
 }
-#historia{
+#tenis{
     background-color: aqua;
     height: 700px;
 }
-#cadastro{
+#eletro{
     background-color: chartreuse;
     height: 700px;
 }
 .menu{
-    background-color: brown;
+    background-color: orange;
     padding: 15px;
 }
 .menu a{
@@ -49,7 +53,7 @@ header{
     font-size: larger;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: cornflowerblue;
+    color: rgb(148, 84, 0);
     transition: 0.9s;
     padding: 5px;
 }
@@ -76,3 +80,34 @@ header{
     /*border: solid red 2px;*/
     text-align: justify;
 }
+
+
+  .search-container {
+    display: flex;
+    gap: 10px;
+    max-width: 400px;
+    position: absolute;
+    top: 20px ;
+    right: 200px;
+  }
+  .search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: medium;
+  }
+  .btn_rsc {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .button{
+    border-radius: 40PX;
+    width: 150px;
+    padding: 10px;
+
+  }
