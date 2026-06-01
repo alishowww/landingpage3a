@@ -23,7 +23,11 @@ header{
 #produtos{
     height: 700px;
     padding-top: 30px;
-    background-color: blueviolet;
+    background-color: rgb(204, 99, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 #roupas{
     height: auto;
@@ -74,7 +78,7 @@ header{
     border-radius: 10px;
 }
 .texto1:hover{
-    background-color: blue;
+    background-color: rgba(243, 198, 157, 0.705);
 }
 .texto1 p{
     /*border: solid red 2px;*/
@@ -111,3 +115,14 @@ header{
     padding: 10px;
 
   }
+
+  .card{
+    background-color: rgba(248, 166, 73, 0.555);
+    height: auto;
+    width: 400px;
+    border-radius: 40px;
+    margin: 20px;
+}
+.card img{
+    width: 350px;
+}
