@@ -37,16 +37,31 @@ header{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: rgb(204, 99, 0);
     height: 700px;
 }
 #tenis{
-    background-color: aqua;
+     height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(204, 99, 0);
     height: 700px;
 }
 #eletro{
-    background-color: chartreuse;
+     height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(204, 99, 0);
     height: 700px;
+
 }
 .menu{
     background-color: orange;
@@ -125,4 +140,9 @@ header{
 }
 .card img{
     width: 350px;
+}
+
+#carrinho{
+    height: 60px;
+    margin-left: 100px;
 }
